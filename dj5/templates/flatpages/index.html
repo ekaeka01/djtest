@@ -44,9 +44,15 @@
                 {% block content %}
                 {{ flatpage.content }}
                 {% endblock content %}
-                {% include 'flatpages/chz.txt' %}
-                {% include 'flatpages/espst.txt' %}
                 
+                
+                <tbody>
+                    <tr>
+                      <td>{% include 'flatpages/esp.html' %}</td>
+                      <td>                         </td>
+                    </tr>
+                  </tbody>
+                </table>
                 
 
             </div>
